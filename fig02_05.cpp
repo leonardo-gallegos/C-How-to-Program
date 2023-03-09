@@ -18,4 +18,4 @@ int main() {
     sum = number1 + number2; // add the numbers; store result in sum
 
     std::cout << "Sum is " << sum << std::endl; // display sum; end line
-} // end fucntion main
+} // end function main
