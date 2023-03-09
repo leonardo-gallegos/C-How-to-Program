@@ -2,7 +2,7 @@
 // Text-printing program.
 #include <iostream> // enables program to output data to the screen
 
-// fucntion main begins program execution
+// function main begins program execution
 int main() {
     std::cout << "Welcome to C++!\n"; // display message
 
