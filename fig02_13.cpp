@@ -1,5 +1,5 @@
 // Fig. 2.13: fig02_13.cpp
-// Comparing integers using if statements, realtional operators
+// Comparing integers using if statements, relational operators
 // and equality operators.
 #include <iostream> // enables program to perform input and output
 
