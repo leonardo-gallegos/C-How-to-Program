@@ -15,7 +15,7 @@ public:
         name = accountName;
     }
 
-    // fcuntion to retrieve the accpunt name
+    // function to retrieve the account name
     std::string getName() const {
         return name;
     }
