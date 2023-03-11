@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int main {
+int main() {
     Account myAccount; // create Account object myAccount
 
     // show that the inital value of myAccount's name is the empty string
@@ -20,5 +20,5 @@ int main {
 
     // display the name stored in object myAccount
     cout << "Name in object myAccount is: "
-       << my Account.getName() << endl;
+       << myAccount.getName() << endl;
 }
