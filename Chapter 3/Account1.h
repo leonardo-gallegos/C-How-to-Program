@@ -1,5 +1,5 @@
 // Fig. 3.4: Account.h
-// Account class with a constructor that initializes the account anme.
+// Account class with a constructor that initializes the account name.
 #include <string>
 
 class Account {
