@@ -24,8 +24,21 @@ public:
     }
 
     // function returns the account balance
-    
+    int getBalance() const {
+        return balance;
+    }
+
+    // function that sets the name
+    void setName(std::string accountName) {
+        name = accountName;
+    }
+
+    // fucntion that returns the name
+    std::string getName() const {
+        return name;
+    }
+
 private:
-    std::string name;
-    int balance{0};
-};
+    std::string name; // account name data member
+    int balance{0}; // data member with default initial value
+}; // end class Account
