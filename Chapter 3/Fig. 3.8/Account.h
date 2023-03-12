@@ -1,6 +1,6 @@
 // Fig. 3.8: Account.h
 // Account class with name and balance data members, and a
-// constructor and deposit fucntion that each perform validation.
+// constructor and deposit function that each perform validation.
 #include <string>
 
 class Account {
@@ -10,7 +10,7 @@ public:
         : name{accountName} { // assign accountName to data member name
 
         // validate that the initialBalance is greater than 0; if not,
-        // data member balance keeps its defalut initial value of 0
+        // data member balance keeps its default initial value of 0
         if (initialBalance > 0) { // if the initialBalance is valid
             balance = initialBalance; // assign it to data member balance
         }
@@ -33,7 +33,7 @@ public:
         name = accountName;
     }
 
-    // fucntion that returns the name
+    // function that returns the name
     std::string getName() const {
         return name;
     }
