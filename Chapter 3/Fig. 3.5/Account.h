@@ -6,8 +6,8 @@ class Account {
 public:
     // constructor initializes data member name with parameter accountName
     explicit Account(std::string accountName)
-      : name{accountName} { // member initializer
-      // empty body 
+        : name{accountName} { // member initializer
+        // empty body 
     }
 
     // function to set the account name
