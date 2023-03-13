@@ -41,4 +41,4 @@ public:
 private:
     std::string name; // account name data member
     int balance{0}; // data member with default initial value
-}; // end class Account
+}; // end class
