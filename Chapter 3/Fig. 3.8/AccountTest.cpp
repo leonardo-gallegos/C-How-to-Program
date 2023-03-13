@@ -15,4 +15,10 @@ int main()
         << account1.getBalance();
     cout << "account2: " << account2.getName() << " balance is $"
         << account2.getBalance();
+
+    cout << "\n\nEnter deposit amount for account1: "; // prompt
+    int depositAmount;
+    cin >> depositAmount; // obtain user input
+    cout << "adding " << depositAmount << " to account1 balance";
+    account1.deposit(depositAmount); // add to account1's balance
 }
