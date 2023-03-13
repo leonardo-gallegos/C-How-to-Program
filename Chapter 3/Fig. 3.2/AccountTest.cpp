@@ -20,5 +20,5 @@ int main() {
 
     // display the name stored in object myAccount
     cout << "Name in object myAccount is: "
-       << myAccount.getName() << endl;
+        << myAccount.getName() << endl;
 }
