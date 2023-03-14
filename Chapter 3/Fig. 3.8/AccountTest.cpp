@@ -21,4 +21,6 @@ int main()
     cin >> depositAmount; // obtain user input
     cout << "adding " << depositAmount << " to account1 balance";
     account1.deposit(depositAmount); // add to account1's balance
+
+    // display balances
 }
