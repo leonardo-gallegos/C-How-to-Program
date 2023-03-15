@@ -30,4 +30,12 @@ int main()
 
     cout << "\n\nEnter deposit amount for account2: "; // prompt
     cin >> depositAmount; // obtain user input
+    cout << "adding " << depositAmount << " to account2 balance";
+    account2.deposit(depositAmount); // add to account2 balance
+
+    // display balances
+    cout << "\n\naccount1: " << account1.getName() << " balance is $"
+        << account1.getBalance();
+    cout << "\naccount2: " << account2.getName() << " balance is $"
+        << account2.getBalance() << endl;
 }
