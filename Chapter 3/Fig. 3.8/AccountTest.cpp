@@ -27,4 +27,7 @@ int main()
         << account1.getBalance();
     cout << "\n\naccount2: " << account2.getName() << " balance is $"
         << account2.getBalance();
+
+    cout << "\n\nEnter deposit amount for account2: "; // prompt
+    cin >> depositAmount; // obtain user input
 }
