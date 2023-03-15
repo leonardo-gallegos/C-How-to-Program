@@ -39,3 +39,10 @@ int main()
     cout << "\naccount2: " << account2.getName() << " balance is $"
         << account2.getBalance() << endl;
 }
+
+/*
+The main function in Fig. 3.9 creates two Account objects (lines 10–11) and attempts to
+initialize them with a valid balance of 50 and an invalid balance of -7, respectively—for
+the purpose of our examples, we assume that balances must be greater than or equal to zero. Lines 14–17 output the account names and balances, which are obtained by calling
+each Account’s getName and getBalance member functions.
+*/
