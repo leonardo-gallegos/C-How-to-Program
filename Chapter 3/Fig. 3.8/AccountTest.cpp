@@ -25,7 +25,7 @@ int main()
     // display balances
     cout << "\n\naccount1: " << account1.getName() << " balance is $"
         << account1.getBalance();
-    cout << "\n\naccount2: " << account2.getName() << " balance is $"
+    cout << "\naccount2: " << account2.getName() << " balance is $"
         << account2.getBalance();
 
     cout << "\n\nEnter deposit amount for account2: "; // prompt
