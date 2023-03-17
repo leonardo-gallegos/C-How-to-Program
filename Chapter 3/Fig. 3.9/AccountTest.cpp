@@ -34,7 +34,7 @@ int main()
     account2.deposit(depositAmount); // add to account2 balance
 
     // display balances
-    cout << "\n\nAccount1: " << account1.getName() << " balance is $"
+    cout << "\n\naccount1: " << account1.getName() << " balance is $"
         << account1.getBalance();
     cout << "\nAccount2: " << account2.getName() << " balance is $"
         << account2.getBalance() << endl;
