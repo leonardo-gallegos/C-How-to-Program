@@ -37,5 +37,5 @@ int main()
     cout << "\n\naccount1: " << account1.getName() << " balance is $"
         << account1.getBalance();
     cout << "\naccount2: " << account2.getName() << " balance is $"
-        << account2.getBalance() << endl;
+        << account1.getName() << endl;
 }
