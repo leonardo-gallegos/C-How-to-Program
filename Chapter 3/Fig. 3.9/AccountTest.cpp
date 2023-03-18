@@ -56,4 +56,3 @@ Fig. 3.8 and displayed by the output statement (Fig. 3.9, lines 16–17). The ba
 account2 is initially 0, because the constructor rejected the attempt to start account2 with
 a negative balance, so the data member balance retains its default initial value.
 */
-
