@@ -47,7 +47,7 @@ the purpose of our examples, we assume that balances must be greater than or equ
 Lines 14–17 output the account names and balances, which are obtained by calling
 each Account’s getName and getBalance member functions.
 
-
+Displaying the Account Objects’ Initial Balances 
 When member function getBalance is called for account1 from line 15, the value of
 account1’s balance is returned from line 28 of Fig. 3.8 and displayed by the output statement 
 in lines 14–15 (Fig. 3.9). Similarly, when member function getBalance is called for
