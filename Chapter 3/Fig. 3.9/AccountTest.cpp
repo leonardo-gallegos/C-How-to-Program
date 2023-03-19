@@ -36,7 +36,7 @@ int main()
     // display balances
     cout << "\n\naccount1: " << account1.getName() << " balance is $"
         << account1.getBalance();
-    cout << "\nAccount2: " << account2.getName() << " balance is $"
+    cout << "\naccount2: " << account2.getName() << " balance is $"
         << account2.getBalance() << endl;
 }
 
@@ -59,5 +59,6 @@ a negative balance, so the data member balance retains its default initial value
 Reading a Deposit Amount from the User and Making a Deposit
 Line 19 prompts the user to enter a deposit amount for account1. Line 20 declares local
 variable depositAmount to store each deposit amount entered by the user. We did not initialize 
-depositAmount, because as you’ll learn momentarily, variable depositAmount’s value will be input by the user’s input.
+depositAmount, because as you’ll learn momentarily, variable depositAmount’s value will be 
+input by the user’s input.
 */
