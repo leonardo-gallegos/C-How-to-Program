@@ -61,4 +61,18 @@ Line 19 prompts the user to enter a deposit amount for account1. Line 20 declare
 variable depositAmount to store each deposit amount entered by the user. We did not initialize 
 depositAmount, because as you’ll learn momentarily, variable depositAmount’s value will be 
 input by the user’s input.
+
+Line 21 reads the deposit amount from the user and places the value into local variable
+depositAmount. Line 22 displays the deposit amount. Line 23 calls object account1’s
+deposit member function with the depositAmount as the member function’s argument.
+When the member function is called, the argument’s value is assigned to the parameter
+depositAmount of member function deposit (line 20 of Fig. 3.8); then member function
+deposit adds that value to the balance. Lines 26–29 (Fig. 3.9) output the names and 
+balances of both Accounts again to show that only account1’s balance has changed. 
+Line 31 prompts the user to enter a deposit amount for account2. Line 32 obtains the
+input from the user. Line 33 displays the depositAmount. Line 34 calls object account2’s
+deposit member function with depositAmount as the member function’s argument; then
+member function deposit adds that value to the balance. Finally, lines 37–40 output the
+names and balances of both Accounts again to show that only account2’s balance has
+changed.
 */
