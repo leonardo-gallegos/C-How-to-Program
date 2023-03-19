@@ -42,3 +42,10 @@ private:
     std::string name; // account name data member
     int balance{0}; // data member with default initial value
 }; // end class Account
+
+/*
+Account’s Member Functions Can All Use balance
+The statements in lines 15, 22 and 28 use the variable balance even though it was not 
+declared in any of the member functions. We can use balance in these member functions
+because it’s a data member in the same class definition.
+*/
