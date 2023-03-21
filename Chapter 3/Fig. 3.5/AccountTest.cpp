@@ -1,13 +1,13 @@
 // Fig. 3.5: AccountTest.cpp
 // Using the Account constructor to initialize the name data
-// member at the time each Account object is created
+// member at the time each Account object is created.
 #include <iostream>
 #include "Account.h"
 
 using namespace std;
 
 int main() {
-    // Create two Account objects
+    // create two Account objects
     Account account1{"Jane Green"};
     Account account2{"John Blue"};
 
