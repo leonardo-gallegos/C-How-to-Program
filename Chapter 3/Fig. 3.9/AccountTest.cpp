@@ -76,5 +76,14 @@ member function deposit adds that value to the balance. Finally, lines 37–40 o
 names and balances of both Accounts again to show that only account2’s balance has
 changed.
 
-
+Duplicated Code in the main Function
+The six statements at lines 14–15, 16–17, 26–27, 28–29, 37–38 and 39–40 are almost
+identical. Each outputs an Account’s name and balance, and differs only in the Account
+object’s name—account1 or account2. Duplicate code like this can create code maintenance 
+problems when that code needs to be updated. For example, if six copies of the same
+code all have the same error to fix or the same update to be made, you must make that
+change six times, without making errors. Exercise 3.13 asks you to modify Fig. 3.9 to 
+include function displayAccount that takes as a parameter an Account object and outputs
+the object’s name and balance. You’ll then replace main’s duplicated statements with six
+calls to displayAccount.
 */
